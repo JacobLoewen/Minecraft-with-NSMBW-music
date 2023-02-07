@@ -1,0 +1,22 @@
+name: Nsmbw
+version: ${project.version}
+main: me.starminer.nsmbw.Main
+api-version: 1.16
+authors: [ StarMiner ]
+description: NSMBW Tracks In Minecraft!
+commands:
+  soundstop:
+    description: Stop All Music
+    usage: /<command>
+    aliases: [stopsounds]
+  lets_a_go:
+    description: Start The Plugin
+    usage: /<command>
+    aliases: [start]
+  offline:
+    description: Stop The Plugin
+    usage: /<command>
+  pregame:
+    description: Iterate
+    usage: /<command>
+    aliases: [antiidle]
